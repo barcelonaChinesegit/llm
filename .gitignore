@@ -1,0 +1,107 @@
+# =============== 原有配置 (包含 Flash/C++ 等) ===============
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# 过滤掉不想要文件和文件夹
+*.exe
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.suo
+*.db
+*.ipch
+Debug/
+.vs
+Release/
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+
+# =============== Python 编译与缓存 ===============
+# 字节码和缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展编译产物
+*.so
+
+# =============== Python 虚拟环境与依赖 ===============
+# 常见的虚拟环境目录 (非常重要，绝对不能提交)
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Python 包管理和构建工具产物
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =============== 数据科学与测试 (可选但常见) ===============
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# pytest 等测试框架缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# =============== IDE 配置文件 (PyCharm & VS Code) ===============
+# PyCharm (IntelliJ IDEA 系列)
+.idea/
+*.iml
+*.iws
+
+# VS Code
+# 注意: 如果团队需要共享代码格式化规则或 launch.json 调试配置，
+# 可以保留 .vscode 文件夹，但忽略里面的本地历史和工作区状态：
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+
+# =============== 操作系统缓存 (Mac & Windows) ===============
+# Mac 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
